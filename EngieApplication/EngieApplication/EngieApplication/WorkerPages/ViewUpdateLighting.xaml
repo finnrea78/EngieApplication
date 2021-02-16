@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.ViewUpdateLighting"
+             Title="View/Update">
+    <!--Creator: Finn Rea-->
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Update account details"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="UpdateAccount" />
+        <ToolbarItem Text="Delete account"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="DeleteAccount" />
+        <ToolbarItem Text="Contact"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Contact" />
+        <ToolbarItem Text="Help"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Help" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+
+        <StackLayout Margin="32,32">
+
+            <TableView Intent="Data">
+                <TableRoot>
+                    <TableSection Title="Customer / Tenant / Office details">
+                        <EntryCell Label="Name" Text="{Binding Name}" />
+                        <EntryCell Label="Adress" Text="{Binding Adress}" />
+                        <EntryCell Label="Postcode" Text="{Binding Postccode}" />
+                        <EntryCell Label="Tel No." Text="{Binding TelNo}" />
+                    </TableSection>
+
+                    <TableSection>
+                        <EntryCell Label="ID:" Text="{Binding Id}" />
+                        <EntryCell Label="JobRef" Text="{Binding JobRef}" Keyboard="Numeric" />
+                    </TableSection>
+
+                    <TableSection Title="Cofely details">
+                        <EntryCell Label="Engineers Name" Text="{Binding Engineersame}" />
+                        <EntryCell Label="RPC" Text="{Binding RPC}" />
+                        <EntryCell Label="Office Adress" Text="{Binding OfficeAdress}" />
+                        <EntryCell Label="Postcode" Text="{Binding OfficePostcode}" />
+                        <EntryCell Label="Tel No." Text="{Binding OfficeTelNo}" />
+                    </TableSection>
+
+                    <TableSection>
+                        <EntryCell Label="Responsible Person:" Text="{Binding ResponsiblePerson}" />
+                    </TableSection>
+
+                    <TableSection>
+                        <EntryCell Label="System manufacturer" Text="{Binding SystemManufacturer}" />
+                        <EntryCell Label="Contact Phone Number" Text="{Binding ManufacturerTelNo}" Keyboard="Numeric" />
+                        <EntryCell Label="Competent engineer responsible for commisioning and annual tests" Text="{Binding ResponsibleEngineer}" />
+                        <EntryCell Label="Phone No." Text="{Binding EngineersTelNo}" />
+                    </TableSection>
+
+                    <TableSection>
+                        <EntryCell Label="Date the system was commissioned" Text="{Binding CommisionDate}" Keyboard="Numeric"/>
+                    </TableSection>
+
+                    <TableSection Title="Details of system mode of operation:">
+                        <EntryCell Label="Non-maintained" Text="{Binding Nonmaintained}" />
+                        <EntryCell Label="Non-maintained luminaires maintained signs" Text="{Binding NonmaintainedLMS}" />
+                        <EntryCell Label="Maintained" Text="{Binding Maintained}" />
+                        <EntryCell Label="Others" Text="{Binding Others}" />
+                    </TableSection>
+
+                    <TableSection>
+                        <EntryCell Label="Duration of system (in hours)" Text="{Binding Hours}"/>
+                        <SwitchCell Text="Is automaticc test system fitted?" On="{Binding IsAutomatic}" />
+                    </TableSection>
+
+                    <TableSection Title="Details of additions or modifications to the system or the premises since original installation:">
+                        <EntryCell Label="Addition or modification 1" Text="{Binding AddMod1}" />
+                        <EntryCell Label="Addition or modification 2" Text="{Binding AddMod2}" />
+                        <EntryCell Label="Addition or modification 3" Text="{Binding AddMod3}" />
+                        <EntryCell Label="Addition or modification 4" Text="{Binding AddMod4}" />
+                        <EntryCell Label="Addition or modification 5" Text="{Binding AddMod5}" />
+                        <EntryCell Label="Addition or modification 6" Text="{Binding AddMod6}" />
+                    </TableSection>
+
+                    <TableSection Title="Engineers declaration">
+                        <EntryCell Label="Signature" Text="{Binding Signature}" />
+                        <EntryCell Label="Date" Text="{Binding Date}" />
+                        <EntryCell Label="Site adress" Text="{Binding SiteAdtess}" />
+                    </TableSection>
+
+                    <TableSection Title="1 Check that appropiate system ha been installed and documented">
+                        <TextCell Text="1.1 Are the correct areas of the premises covered?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q11}"/>
+                        <TextCell Text="1.2 Is the system documentation correct and available?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q12}"/>
+                        <TextCell Text="1.3 Has the system been designed for the correct mode of operation category?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q13}"/>
+                        <TextCell Text="1.4 Has the system been designed for the correct emergency duration period?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q14}"/>
+                        <TextCell Text="1.5 Is a completion certificate available?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q15}"/>
+                        <TextCell Text="1.6 Is a test log avilable and are the entries up to date?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q16}"/>
+                    </TableSection>
+
+                    <TableSection Title="2 Check of the system installed">
+                        <TextCell Text="2.1 Are the luminaires installed those documented in the design?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q21}"/>
+                        <TextCell Text="2.2 Are the exit signs and arrow directions correct?" />
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding Q22}"/>
+                        <TextCell Text="2.3 Are there luminaires sited at points of emphasis?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q23}"/>
+                        <TextCell Text="2.4 Is the spacing between luminaires compliant to spacing tables or drawing?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q24}"/>
+                        <TextCell Text="2.5 Is there illumination from at least 2 luminaires in each compartment?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q25}"/>
+                        <TextCell Text="2.6 Are the luminaires suitable for their location?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q26}"/>
+                        <TextCell Text="2.7 Are non-maintained luminaires monitoring the local lighting crcuit?" />
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding Q27}"/>
+                    </TableSection>
+
+                    <TableSection Title="3 Check of the quality of the system">
+                        <TextCell Text="3.1 Do the luminaires conform to BS EN 60598-2-22?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q31}"/>
+                        <TextCell Text="3.2 If a central powered systems, is the wiring file resistant?" />
+                        <EntryCell Label="(Yes/No/NA/Unknown):" Text="{Binding Q32}"/>
+                        <TextCell Text="3.3 For centrally powered system, is the wiring file resistant?" />
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding Q33}"/>
+                        <TextCell Text="3.4 Do any coberted luminaires conform to BS EN 60598-2-22/ICEL 1004?" />
+                        <EntryCell Label="(Yes/No/NA/Unknown):" Text="{Binding Q34}"/>
+                    </TableSection>
+
+                    <TableSection Title="4 Test Facilities">
+                        <TextCell Text="4.1 Do the test facilities simulate a supply failure?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q41}"/>
+                        <TextCell Text="4.2 Are the test facilities safe to operate and do not isolate a equired service?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q42}"/>
+                        <TextCell Text="4.3 Are the test facilities clearly marked with their function?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q43}"/>
+                        <TextCell Text="4.4 Are the user's staff trained and able to operate them and record tests correctly?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q44}"/>
+                        <TextCell Text="4.5 If an automatic test system is intalled it conform to IEC 62034?" />
+                        <EntryCell Label="(Yes/No/NA/Unknown):" Text="{Binding Q45}"/>
+                    </TableSection>
+
+                    <TableSection Title="5 Central powered systems">
+                        <TextCell Text="5.1 Are the escape lighting components and cables installed correctly?" />
+                        <EntryCell Label="(Yes/No/NA/Unknown):" Text="{Binding Q51}"/>
+                    </TableSection>
+
+                    <TableSection Title="6 Final acceptance to be conducted at completion">
+                        <TextCell Text="6.1 Are the areas of coverage in accordance with the requirements 
+                                       imposed under the building regulations and risk assessment?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q61}"/>
+                        <TextCell Text="6.2 For central systems: has the correct cable type been installed?" />
+                        <EntryCell Label="(Yes/No/NA/Unknown):" Text="{Binding Q62}"/>
+                        <TextCell Text="6.3 Does the number and distribution of fittings appear reasonable?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q63}"/>
+                        <TextCell Text="6.4 Have escape lighting cables been segrgated from all other cables?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q64}"/>
+                        <TextCell Text="6.5 Is the standard of cable installation satisfactory?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q65}"/>
+                        <TextCell Text="6.6 Are all the isolators, switches and protective devicces minimised and marked?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q66}"/>
+                        <TextCell Text="6.7 Have suitable test facilities been installed and marked?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q67}"/>
+                        <TextCell Text="6.8 Have all escape lighting cable and penetrations been fire stopped?" />
+                        <EntryCell Label="(Yes/No/Unknown):" Text="{Binding Q68}"/>
+                        <TextCell Text="6.9 Does the system operate correctly when tested?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q69}"/>
+                        <TextCell Text="6.10 Has adequate documentation been provided to user?" />
+                        <EntryCell Label="(Yes/No):" Text="{Binding Q610}"/>
+                    </TableSection>
+
+                    <TableSection>
+                        <EntryCell Label="Results of inspection" Text="{Binding Results}" />
+                        <EntryCell Label="Comments" Text="{Binding Comments}" />
+                    </TableSection>
+
+                </TableRoot>
+            </TableView>
+
+
+            <Button Text="Remove asset" Command="{Binding DeleteLighting}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+            <Button Text="Update asset" Command="{Binding UpdateLighting}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

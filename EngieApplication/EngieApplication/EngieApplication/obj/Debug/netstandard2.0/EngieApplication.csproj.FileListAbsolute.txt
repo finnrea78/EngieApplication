@@ -1,0 +1,177 @@
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.deps.json
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AddAcount.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AdminMainPage.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\RemoveAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccounts.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\CreateAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddGasAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddLightingAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddRCDAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\CreateAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\RemoveItem.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectAndView.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectedJob.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SendAsPDF.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateGas.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateLighting.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateRCD.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\WorkerMainPage.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfoInputs.cache
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfo.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.csproj.CoreCompileInputs.cache
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.csprojAssemblyReference.cache
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Scanner.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Contact.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\DeleteAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie4\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Help.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.deps.json
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.dll
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.pdb
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.csprojAssemblyReference.cache
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AddAcount.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AdminMainPage.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\RemoveAccount.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccount.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccounts.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\CreateAccount.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddGasAsset.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddLightingAsset.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddRCDAsset.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Contact.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\CreateAsset.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\DeleteAccount.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Help.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\RemoveItem.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Scanner.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectAndView.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectedJob.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SendAsPDF.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateGas.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateLighting.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateRCD.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\WorkerMainPage.xaml.g.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfoInputs.cache
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfo.cs
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.csproj.CoreCompileInputs.cache
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.dll
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\Users\oaciz\Source\Repos\engie2\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.deps.json
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AddAcount.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AdminMainPage.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\RemoveAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccounts.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\CreateAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddGasAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddLightingAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddRCDAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Contact.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\CreateAsset.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\DeleteAccount.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Help.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\RemoveItem.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Scanner.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectAndView.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectedJob.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SendAsPDF.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateGas.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateLighting.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateRCD.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\WorkerMainPage.xaml.g.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfoInputs.cache
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfo.cs
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.csproj.CoreCompileInputs.cache
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\TestMerge\engie\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.deps.json
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AddAcount.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AdminMainPage.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\RemoveAccount.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccount.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccounts.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\CreateAccount.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddGasAsset.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddLightingAsset.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddRCDAsset.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Contact.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\CreateAsset.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\DeleteAccount.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Help.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\RemoveItem.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Scanner.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectAndView.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectedJob.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SendAsPDF.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateGas.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateLighting.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateRCD.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\WorkerMainPage.xaml.g.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfoInputs.cache
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfo.cs
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.csproj.CoreCompileInputs.cache
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\XamlC.stamp
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\Project and contribution matrix\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AddAcount.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\AdminMainPage.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\RemoveAccount.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccount.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\AdminPages\ViewAccounts.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\CreateAccount.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddGasAsset.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddLightingAsset.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\AddRCDAsset.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Contact.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\CreateAsset.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\DeleteAccount.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Help.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\RemoveItem.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\Scanner.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectAndView.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SelectedJob.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\SendAsPDF.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateGas.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateLighting.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\ViewUpdateRCD.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\WorkerPages\WorkerMainPage.xaml.g.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfoInputs.cache
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.AssemblyInfo.cs
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.csproj.CoreCompileInputs.cache
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.deps.json
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.dll
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\ref\EngieApplication.dll
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\bin\Debug\netstandard2.0\EngieApplication.pdb
+C:\CSC2033\submission - team 28\Project\EngieApplication\EngieApplication\EngieApplication\obj\Debug\netstandard2.0\XamlC.stamp

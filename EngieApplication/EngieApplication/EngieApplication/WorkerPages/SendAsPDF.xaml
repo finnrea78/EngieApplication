@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.SendAsPDF">
+    <ContentPage.Content>
+        <StackLayout Margin="32,32" Spacing="8">
+            <Label Text="Select Job Ref and Destination" FontFamily="Lato" FontSize="20" HorizontalOptions="Center"/>
+            <Label Text="(Leave blank to send to your own email address)" FontFamily="Lato" FontSize="16" HorizontalOptions="Center"/>
+            <BoxView HeightRequest="1.5" Color="#a5a5a5"/>
+            <Entry x:Name="inputRef" Placeholder="Job Reference" Text="{Binding inputJobRef}"/>
+            <Entry x:Name="inputMail"  Placeholder="Email" Text="{Binding inputEmail}" />
+            <Button Text="Send PDF" Command="{Binding ButtonClick}"/>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

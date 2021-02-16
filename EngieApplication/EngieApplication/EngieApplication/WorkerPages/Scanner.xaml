@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.Scanner"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms"
+             Title="Scanner">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Update account details"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="UpdateAccount" />
+        <ToolbarItem Text="Delete account"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="DeleteAccount" />
+        <ToolbarItem Text="Contact"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Contact" />
+        <ToolbarItem Text="Help"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Help" />
+
+    </ContentPage.ToolbarItems>
+
+
+    <ContentPage.Content>
+        
+        <!--Creator Finn Rea Created scanner-->
+        
+
+        <Grid VerticalOptions="CenterAndExpand"
+              HorizontalOptions="CenterAndExpand">
+            <zxing:ZXingScannerView x:Name="scanView" 
+                                        IsScanning="True" 
+                                        OnScanResult="scanView_OnScanResult"
+                                        WidthRequest="300"
+                                        HeightRequest="500"
+                                        VerticalOptions="CenterAndExpand"
+                                        HorizontalOptions="CenterAndExpand"/>
+            <zxing:ZXingDefaultOverlay TopText="Align the barcode within the frame"/>
+        </Grid>
+
+    </ContentPage.Content>
+</ContentPage>

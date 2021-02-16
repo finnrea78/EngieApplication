@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.Contact"
+             Title="Contact">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Update account details"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="UpdateAccount" />
+        <ToolbarItem Text="Delete account"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="DeleteAccount" />
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="32,32" Spacing="16">
+                <Entry Text="{Binding Subject}" x:Name="EntrySubject" Placeholder="Subject" Keyboard="Text" FontFamily="Lato" FontSize="20"/>
+
+
+                <Label Text=" "/>
+
+                <BoxView HeightRequest="1.5" Color="#a5a5a5"/>
+
+                <Editor HeightRequest = "300" Text="{Binding Body}" x:Name="EntryBody" Placeholder="Message" Keyboard="Text" FontFamily="Lato" FontSize="20"/>
+
+                <Button Text="Submit" Command="{Binding SendEmailCommand}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

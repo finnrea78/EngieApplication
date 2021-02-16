@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.ViewUpdateGas"
+             Title="View/Update">
+
+    <!--Creator: Finn Rea-->
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Update account details"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="UpdateAccount" />
+        <ToolbarItem Text="Delete account"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="DeleteAccount" />
+        <ToolbarItem Text="Contact"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Contact" />
+        <ToolbarItem Text="Help"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Help" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Margin="32,32">
+            <TableView Intent="Data" HasUnevenRows="True">
+                <TableRoot>
+                    <TableSection Title="Engineer Infomation">
+                        <EntryCell Label="Name:" Text="{Binding Name}"/>
+                        <TextCell Text="{Binding JobRef, StringFormat='Job Referance: {0:F2}'}"/>
+                        <EntryCell Label="Gas safe card No:" Text="{Binding SafeCard}"/>
+                        <EntryCell Label="Office:" Text="{Binding OfficeAddress}" />
+                    </TableSection>
+                    <TableSection Title="Appliance details" >
+                        <SwitchCell Text="Landlords appliance:" On="{Binding LandlordAppliance}"/>
+                        <EntryCell Label="Service inspection Repair:" Text="{Binding ServiceInspectionRepair}" />
+                        <EntryCell Label="Location:" Text="{Binding SiteAddress}" />
+                        <EntryCell Label="Type:" Text="{Binding Type}" />
+                        <EntryCell Label="Model:" Text="{Binding Model}"/>
+                        <TextCell Text="{Binding SerialNumber, StringFormat='Serial number: {0:F2}'}"/>
+                        <EntryCell Label="Burner Manufactura:" Text="{Binding BurnerManufacture}"/>
+                        <EntryCell Label="Flue type (OF/RS/Rl)" Text="{Binding FlueType}"  />
+                    </TableSection>
+                    <TableSection Title="General Safety Checks">
+                        <TextCell Text="Gas Booster/compressor operating correctly"/>
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding Operational}"/>
+                        <TextCell Text="Is there a current gas installation line diagram at primary meter"/>
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding InstallationLine}"/>
+                        <SwitchCell Text="Is the meter installation correct:" On="{Binding Installation}" />
+                        <SwitchCell Text="Gas installation pipework adequately suppoorted:" On="{Binding PipeWork}" />
+                        <SwitchCell Text="Gas installation pipework sleeves and sealed:" On="{Binding PipeWorkSleeved}" />
+                        <TextCell Text="Is gas pipework colour coded or identified "/>
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding PipeWorkColour}"/>
+                        <SwitchCell Text="Is flue system installed in accordance with standards (Yes/No):" On="{Binding Flue}"/>
+                        <EntryCell Label="Flue termination satisfactory (Yes/No/NA):" Text="{Binding FlueTermination}"/>
+                        <TextCell Text="Has a tightness test been carried out from local isolation valve "/>
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding Tightness}" />
+
+                        <SwitchCell Text="Is gas pipework electrically bonded:" On="{Binding PipeworkBonded}" />
+                        <SwitchCell Text="Emergency isolation valves fitted:" On="{Binding EmergencyValves}" />
+                        <SwitchCell Text="Emergency valve handles in place and labelled:" On="{Binding ValveHandles}" />
+                        <SwitchCell Text="Do valves fall to the correct position:" On="{Binding ValvesPosition}" />
+                        <SwitchCell Text="Area clear of combustible materials:" On="{Binding CombutionMaterials}" />
+
+
+                    </TableSection>
+                    <TableSection Title="Ventilation">
+                        <TextCell Text="Low level free area cm² or ventilation flow inlet m³/h"/>
+                        <EntryCell Label="Actual:" Text="{Binding FlowInletActual}" Keyboard="Numeric"/>
+                        <EntryCell Label="Required:" Text="{Binding FlowInletRequired}" Keyboard="Numeric"/>
+                        <TextCell Text="High level free area cm² or ventilation flow extract m³/h"/>
+                        <EntryCell Label="Actual:" Text="{Binding FlowExtractActual}" Keyboard="Numeric"/>
+                        <EntryCell Label="Required:" Text="{Binding FlowExtractRequired}" Keyboard="Numeric"/>
+                        <SwitchCell Text="Ventilation grills clear (Yes/No):" On="{Binding VentsClear}" />
+                        <TextCell Text="Fans and/or flue interlock operating correctly"/>
+                        <EntryCell Label="(Yes/No/NA):" Text="{Binding FansOperational}"/>
+                        <EntryCell Label="Details of any faults:" Text="{Binding Faults}"/>
+                        <EntryCell Label="REmedial action Taken:" Text="{Binding Actions}" />
+                    </TableSection>
+                    <TableSection Title="Appliance checks">
+                        <EntryCell Label="Flue flow test satisfactory(Yes/No/NA):" Text="{Binding FlueFlowSatisfactory}" />
+                        <EntryCell Label="Spillage test satisfactory (Yes/No/NA):" Text="{Binding SpillageTest}" />
+                        <EntryCell Label="Air/Gas switch operational (Yes/No/NA):" Text="{Binding AirGasSwitch}" />
+                        <EntryCell Label="Flame providing device operating (Yes/No/NA):" Text="{Binding FlameDevices}" />
+                        <EntryCell Label="Burner lock out time (seconds):"  Text="{Binding BurnerLockout}" Keyboard="Numeric"/>
+                        <SwitchCell Text="temperature and limit thermostats operating correctly:" On="{Binding TempLimit}" />
+                        <EntryCell Label="Heat net input rating data (Kw):" Text="{Binding HeatInput}" Keyboard="Numeric"/>
+                        <TextCell Text="Gas burner pressure (mbar) or heat input kW/h"/>
+                        <EntryCell Label="required:" Text="{Binding GasBurnerPressureRequired}" Keyboard="Numeric"/>
+                        <EntryCell Label="measured:" Text="{Binding GasBurnerPressureMeasure}" Keyboard="Numeric"/>
+                        <EntryCell Label=" Gas rating measured (kW/h / NA):" Text="{Binding GasRating}" Keyboard="Numeric"/>
+                        <EntryCell Label="Air/Gas ration conttrol setting (%/NA):" Text="{Binding AirGasRatio}" Keyboard="Numeric"/>
+                        <EntryCell Label="Net flue gas temperature (gross ambient)(C):" Text="{Binding NetFlueTemp}" Keyboard="Numeric"/>
+                        <EntryCell Label="Oxygen (O2 %):" Text="{Binding Oxygen}" Keyboard="Numeric"/>
+                        <EntryCell Label="Carbon monoxide (CO)(ppm):" Text="{Binding CarbonMonoxide}" Keyboard="Numeric"/>
+                        <EntryCell Label="Carbon dioxide(CO2)(%):" Text="{Binding CarbonDioxide}" Keyboard="Numeric"/>
+                        <EntryCell Label="Excess air (%):" Text="{Binding Air}" Keyboard="Numeric"/>
+                        <EntryCell Label="CO/CO2 ratio:" Text="{Binding COCO2}" Keyboard="Numeric"/>
+                        <EntryCell Label="Gross efficiency(%):" Text="{Binding Efficiency}" Keyboard="Numeric"/>
+                        <EntryCell Label="CO flue dilution(ppm):" Text="{Binding COFlue}" Keyboard="Numeric"/>
+                        <EntryCell Label="Standing pressure (mbar):" Text="{Binding StandingPressure}" Keyboard="Numeric"/>
+                        <EntryCell Label="Working Pressure (mbar):" Text="{Binding WorkingPressure}" Keyboard="Numeric"/>
+                        <SwitchCell Text="Is appliance safe for use:" On="{Binding SafeToUse}"/>
+                    </TableSection>
+
+
+                </TableRoot>
+            </TableView>
+
+
+            <Button Text="Update" Command="{Binding UpdateGas}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+            <Button Text="Remove" Command="{Binding DeleteGas}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

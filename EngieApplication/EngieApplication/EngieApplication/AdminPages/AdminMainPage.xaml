@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mypages="clr-namespace:EngieApplication.AdminPages"
+             x:Class="EngieApplication.AdminPages.AdminMainPage">
+    <!--Pages can be added as references or inline-->
+
+
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Update account details"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="UpdateAccount" />
+        <ToolbarItem Text="Delete account"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="DeleteAccount" />
+    </TabbedPage.ToolbarItems>
+
+    <TabbedPage.Children>
+        <mypages:AddAcount Title="Add User" />
+        <mypages:ViewAccounts Title="View Users"/>
+        <mypages:RemoveAccount Title="Remove User"/>
+    </TabbedPage.Children>
+
+
+
+
+</TabbedPage>

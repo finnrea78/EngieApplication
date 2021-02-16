@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.CreateAsset">
+    <!--Creator: Finn Rea-->
+    <ContentPage.Content>
+        <StackLayout Margin="32,32" Spacing="8">
+            <Label Text="Select an asset type" FontFamily="Lato" FontSize="20" HorizontalOptions="Center"/>
+            <BoxView HeightRequest="1.5" Color="#a5a5a5"/>
+            <Button Text="Gas" Command="{Binding GasCommand}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+            <Button Text="Lighting" Command="{Binding LightingCommand}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+            <Button Text="RCD" Command="{Binding RCDCommand}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

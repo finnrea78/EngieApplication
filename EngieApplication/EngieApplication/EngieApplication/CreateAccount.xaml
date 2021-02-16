@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.CreateAccount"
+             Title="Sign Up">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text=""
+                 IconImageSource="engie_toolbar.png"
+                 Order="Primary"
+                 Priority="1"/>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Margin="32,32" Spacing="8">
+                <Image Source="engie_large_blue.png"
+                WidthRequest="225" />
+                <Label Text=" " />
+
+                <Entry x:Name="txtName" Placeholder="Full Name" Text="{Binding Name}" FontFamily="Lato" FontSize="20" Keyboard="Text" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                <Label Text="{Binding IsNameValid}" TextColor="#c03" FontFamily="Lato" FontSize="12"/>
+
+                <Entry x:Name="txtId" Placeholder="ID Number" Text="{Binding PersonId}" FontFamily="Lato" FontSize="20" Keyboard="Numeric" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                <Label Text="{Binding IsIDValid}" TextColor="#c03" FontFamily="Lato" FontSize="12"/>
+
+                <Entry x:Name="txtEmail" Placeholder="Email Address" Text="{Binding Email}" FontFamily="Lato" FontSize="20" Keyboard="Email" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                <Label Text="{Binding IsEmailValid}" TextColor="#c03" FontFamily="Lato" FontSize="12"/>
+
+                <Entry x:Name="txtPhoneNumber" Placeholder="Phone Number" Text="{Binding PhoneNumber}" FontFamily="Lato" FontSize="20" Keyboard="Telephone" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                <Label Text="{Binding IsPhoneValid}" TextColor="#c03" FontFamily="Lato" FontSize="12"/>
+
+                <Entry x:Name="txtCompany" Placeholder="Company" Text="{Binding Company}" Keyboard="Text" FontFamily="Lato" FontSize="20" ReturnType="Next" ClearButtonVisibility="WhileEditing"/>
+                <Label Text="{Binding IsCompanyValid}" TextColor="#c03" FontFamily="Lato" FontSize="12"/>
+
+                <Entry x:Name="txtPassword" Placeholder="Password" Text="{Binding Password}" IsPassword="true" FontFamily="Lato" FontSize="20" ReturnType="Go" ClearButtonVisibility="WhileEditing" ReturnCommand="{Binding AddAccountCommand}"/>
+                <Label Text="{Binding IsPasswordValid}" TextColor="#c03" FontFamily="Lato" FontSize="12"/>
+
+                <Button Text="Sign Up" Command="{Binding AddAccountCommand}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

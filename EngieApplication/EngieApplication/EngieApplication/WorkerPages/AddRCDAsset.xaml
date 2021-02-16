@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.AddRCDAsset"
+             Title="Add RCD asset">
+    <!--Creator: Finn Rea-->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Update account details"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="UpdateAccount" />
+        <ToolbarItem Text="Delete account"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="DeleteAccount" />
+        <ToolbarItem Text="Contact"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Contact" />
+        <ToolbarItem Text="Help"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Help" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout Margin="32,32">
+            <TableView Intent="Data">
+                <TableRoot>
+                    <TableSection Title="Engineer Infomation">
+                        <EntryCell Label="Name:" Text="{Binding Name}"/>
+                        <EntryCell Label="Job Ref:" Text="{Binding JobRef}" />
+                        <EntryCell Label="Site Address:" Text="{Binding SiteAddress}" />
+                        <EntryCell Label="Date:" Text="{Binding Date}"/>
+                    </TableSection>
+                    <TableSection Title="Appliance details">
+                        <EntryCell Label="Switch Board referance:" Text="{Binding SwitchBoardReferance}"/>
+                        <EntryCell Label="Circuit Reference:" Text="{Binding CircuitReference}" />
+                        <SwitchCell Text="Functional test:" On="{Binding FunctionalTest}"  />
+                        <EntryCell Label="Annual service only (x1):" Text="{Binding AnnualServiceX1}" />
+                        <EntryCell Label="Annual service only (x5):" Text="{Binding AnnualServiceX5}" />
+                    </TableSection>
+                </TableRoot>
+            </TableView>
+
+
+            <Button Text="Add" Command="{Binding AddAssetCommand }" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

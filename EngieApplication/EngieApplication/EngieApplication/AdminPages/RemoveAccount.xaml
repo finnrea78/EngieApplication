@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.AdminPages.RemoveAccount">
+
+    <ContentPage.Content>
+        <StackLayout Margin="32,32" Spacing="16">
+            <Label Text="Enter ID number of user to remove:" FontFamily="Lato" FontSize="20" HorizontalOptions="Center"/>
+            <Entry Text ="{Binding PersonID}" Placeholder="User ID" Keyboard="Numeric" FontFamily="Lato" FontSize="20"/>
+            <Button Text="Remove" Command="{Binding RemoveAccountCommand}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

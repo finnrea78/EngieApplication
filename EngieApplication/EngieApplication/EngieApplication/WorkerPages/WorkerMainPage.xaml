@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.WorkerPages.WorkerMainPage"
+             xmlns:pages="clr-namespace:EngieApplication.WorkerPages"
+             Title="Worker pages">
+  
+    
+    
+    
+    
+    
+    <!--Pages can be added as references or inline-->
+
+    <!--Creator: Finn Rea 
+    created tabbed view allow for navigation between worker pages-->
+
+
+    <!--Creator: Kacper Stawski
+    created toolbaritems allow for navigation between certain pages-->
+
+    <!--Modifications: Denis Kostin
+    configured so toolbaritems are under a custom icon-->
+
+
+
+    <TabbedPage.ToolbarItems>
+        <ToolbarItem Text="Update account details"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="UpdateAccount" />
+        <ToolbarItem Text="Delete account"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="DeleteAccount" />
+        <ToolbarItem Text="Contact"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Contact" />
+        <ToolbarItem Text="Help"
+                 Order="Secondary"
+                 Priority="0"
+                 Clicked="Help" />
+    </TabbedPage.ToolbarItems>
+
+
+
+    <TabbedPage.Children>
+        <pages:SelectAndView Title="View or Scan"/>
+        <pages:CreateAsset Title="Add Asset"/>
+        <pages:RemoveItem Title="Remove Asset"/>
+        <pages:SendAsPDF Title="Send PDF" />
+    </TabbedPage.Children>
+
+
+</TabbedPage>

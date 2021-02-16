@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EngieApplication.MainPage">
+
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text=""
+                 IconImageSource="engie_toolbar.png"
+                 Order="Primary"
+                 Priority="1"/>
+    </ContentPage.ToolbarItems>
+
+
+
+    <StackLayout Margin="32,32" Spacing="16">
+        <Image Source="engie_large_blue.png"
+       WidthRequest="225" />
+
+        <Label Text="Please sign in or create an account" HorizontalTextAlignment="Center" FontFamily="Lato" FontSize="20"/>
+
+        <Entry Placeholder="Email" Text="{Binding Email}" FontFamily="Lato" Keyboard="Email" ReturnType="Next" ClearButtonVisibility="WhileEditing" FontSize="22"/>
+
+        <Entry Placeholder="Password" Text="{Binding Password}" IsPassword="True" FontFamily="Lato" ReturnType="Go" ClearButtonVisibility="WhileEditing" FontSize="22" ReturnCommand="{Binding LoginCommand}"/>
+
+        <Button Text="Login" Command="{Binding LoginCommand}" FontFamily="Lato" BackgroundColor="#009de9" TextColor="White" FontSize="20" TextTransform="None"/>
+
+        <Label HorizontalOptions="Center"
+       TextColor="#009de9"
+       FontSize="18"
+       Text="Create an account">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="Create_btn" />
+            </Label.GestureRecognizers>
+        </Label>
+
+    </StackLayout>
+
+</ContentPage>
